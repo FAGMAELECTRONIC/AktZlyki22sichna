@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+}
+p{
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+}
+h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#imges{
+	display: flex;
+	justify-content: space-around;
+}
+style{
+	background-attachment: fixed;
+	background-image: URL(https://www.wallpaperup.com/uploads/wallpapers/2015/01/17/588500/350f971b402e4aba892872f2c2425da6.jpg);
+}
+#tb{
+	display: flex;
+	justify-content: space-around;
+	
+}
+#Txt{
+	position: relative;
+	z-index: 1;
+	margin: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#Footer{
+	display: flex;
+	justify-content: space-around;
+}
